@@ -14,3 +14,4 @@ resource "aws_instance"  "myec2" {
     root_block_device {
     delete_on_termination = true
   }
+}
